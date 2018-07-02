@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+}
+
+.calcBody {
+	width: 500px;
+	height: 600px;
+	background-color: orange;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.calcContainer {
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+}
+
+.calcWindow {
+	color: white;
+	font-size: 2em;
+	line-height: 50px;
+	display: inline-block;
+	height: 50px;
+	background-color: dimgray;
+	width: 100%;
+	margin: 20px 0;
+}
+
+#btnContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.btnBox {
+	width: 25%;
+	height: 90px;
+}
+
+.btnBoxBig {
+	width: 50%;
+}
+
+.btn {
+	width: 90%;
+	height: 90%;
+	background-color: black;
+	color: white;
+	font-size: 3em;
+	border: none;
+	border-radius: 10px;
+	border-bottom: 5px solid rgba(255,255,255, 0.5)
+}
+
+.btnBig {
+	width: 95%;
+}
+
+.buttonDel {
+	background-color: deepskyblue;
+}
+
+.operation {
+	background-color: dimgray;
+}
+
+.result {
+	background-color: green;
+}
+
+.btn:active {
+	border: 5px solid white;
+}
